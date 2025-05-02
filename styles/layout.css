@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+@media (min-width: 375px) {
+  .header {
+    padding: 54px 80px 64px 64px;
+  }
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.header__nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 48px;
+}
+.header__nav-link {
+  text-decoration: none;
+  color: var(--white-col);
+}
