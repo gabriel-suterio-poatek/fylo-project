@@ -1,26 +1,3 @@
-:root{
-    /*(intro and email sign up background)*/
-    --dark-blue-1: hsl(217, 28%, 15%);
-    /*(main background)*/
-    --dark-blue-2: hsl(218, 28%, 13%);
-    /* (footer background)*/
-    --dark-blue-3: hsl(216, 53%, 9%);
-    /*testimonials background*/
-    --dark-blue-4: hsl(219, 30%, 18%);
-
-    --cyan: hsl(176, 68%, 64%);
-    --blue: hsl(198, 60%, 50%);
-    --Red: hsl(0, 100%, 63%);
-
-    --white: hsl(0, 0%, 100%);
-
-    --font-heading: 'Raleway', sans-serif;
-
-    --font-body: 'Open Sans', sans-serif;
-
-    --font-size-base: 14px;
-}
-
 body {
 
     font-family: var(--font-body);
