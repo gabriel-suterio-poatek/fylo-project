@@ -9,7 +9,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 40px 24px 48px;
+  padding: 24px;
+}
+
+@media (min-width: 375px) {
+  .header {
+    padding: 54px 80px 64px 64px;
+  }
 }
 .header__nav {
   display: flex;
@@ -21,7 +27,7 @@ body {
 .header__nav-list {
   list-style-type: none;
   display: flex;
-  gap: 1rem;
+  gap: 48px;
 }
 .header__nav-link {
   text-decoration: none;
