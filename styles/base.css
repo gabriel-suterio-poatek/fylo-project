@@ -19,7 +19,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: hsl(217, 28%, 15%);
-  font-family: var(--font-body);
   font-size: var(--font-size-base);
   font-weight: 400;
 }
