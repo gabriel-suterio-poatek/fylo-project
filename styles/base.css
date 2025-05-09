@@ -18,9 +18,8 @@
 }
 body {
   font-family: var(--font-body);
-  background-color: hsl(217, 28%, 15%);
+  background-color: var(--dark-blue-1);
   font-size: var(--font-size-base);
-  font-weight: 400;
 }
 
 h1,
