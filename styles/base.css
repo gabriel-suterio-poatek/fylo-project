@@ -4,9 +4,9 @@
   --dark-blue-3: hsl(216, 53%, 9%);
   --dark-blue-4: hsl(219, 30%, 18%);
 
-  --cyan-col: hsl(176, 68%, 64%);
-  --blue-col: hsl(198, 60%, 50%);
-  --red-col: hsl(0, 100%, 63%);
+  --cyan-color: hsl(176, 68%, 64%);
+  --blue-color: hsl(198, 60%, 50%);
+  --red-color: hsl(0, 100%, 63%);
 
   --white-col: hsl(0, 0%, 100%);
 
@@ -17,7 +17,7 @@
   --font-size-base: 0.875rem;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-body);
   background-color: hsl(217, 28%, 15%);
   font-size: var(--font-size-base);
   font-weight: 400;
@@ -31,7 +31,7 @@ h5,
 h6,
 .cta,
 .list-item {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-heading);
 }
 
 p {
