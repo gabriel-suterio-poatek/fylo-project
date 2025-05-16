@@ -52,8 +52,25 @@
   color: var(--white-col);
 }
 .hero__cta {
-  background-color: var(--blue-col);
-  color: var(--white-col);
-  padding: 16px 32px;
-  border-radius: 50px;
+  display: flex;
+  width: 152px;
+  height: 26px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 60px;
+  color: var(--Neutrals-White, #fff);
+  background-color: var(--cyan-color);
+  text-decoration: none;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
 }
