@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 24px 45px 24px;
+  gap: 16px;
+}
+.header__logo {
+  width: 2vw;
+  min-width: 80px;
+}
+
+.header__nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+.header__nav-link {
+  text-decoration: none;
+  color: var(--white-col);
+  white-space: nowrap;
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 54px 80px 64px 64px;
+  }
+  .header__logo {
+    width: 180px;
+  }
+  .header__nav-list {
+    gap: 48px;
+  }
+}
