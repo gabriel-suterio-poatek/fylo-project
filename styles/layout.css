@@ -24,17 +24,36 @@
 .benefits {
   margin-top: 120px;
   justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  flex-direction: column;
+  gap: 88px;
+  align-items: center;
+  padding: 0;
+  max-width: 880px;
+  margin-inline: auto;
+}
+.benefit {
   display: flex;
   flex-direction: column;
-  gap: 24px;
   align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
 }
-.benefits__image {
+.benefit__image {
   height: 68px;
   width: 68px;
   object-fit: contain;
+  margin-bottom: 28px;
 }
-
+.benefit__title {
+  margin-bottom: 8px;
+}
+.benefit__description {
+}
+.main {
+  padding: 0 24px 0 24px;
+}
 @media screen and (min-width: 1440px) {
   .header {
     padding: 54px 80px 64px 64px;
@@ -45,4 +64,12 @@
   .header__nav-list {
     gap: 48px;
   }
+  .benefits {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.benefits__list {
+  list-style-type: none;
+  display: contents;
 }
