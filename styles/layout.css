@@ -43,11 +43,10 @@
   width: 68px;
   object-fit: contain;
   margin-bottom: 28px;
+  margin-inline: auto;
 }
 .benefit__title {
   margin-bottom: 8px;
-}
-.benefit__description {
 }
 .main {
   padding: 0 24px 0 24px;
