@@ -3,33 +3,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 24px 24px 45px 24px;
+  gap: 16px;
 }
 .header__logo {
-  min-width: 150px;
-}
-@media screen and (min-width: 1440px) {
-  .header {
-    padding: 54px 80px 64px 64px;
-  }
+  width: 2vw;
+  min-width: 80px;
 }
 
-.header__nav {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-}
 .header__nav-list {
   list-style-type: none;
   display: flex;
-  gap: 48px;
+  gap: 20px;
+  padding: 0;
 }
 .header__nav-link {
   text-decoration: none;
   color: var(--white-col);
   white-space: nowrap;
 }
+
 .hero {
   display: flex;
   align-items: center;
@@ -49,26 +41,55 @@
   font-weight: 400;
   color: var(--white-col);
 }
-.hero__cta {
-  display: flex;
-  width: 152px;
-  height: 26px;
-  padding: 10px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  border-radius: 60px;
-  color: var(--Neutrals-White, #fff);
-  background-color: var(--cyan-color);
-  text-decoration: none;
-  overflow: hidden;
-  text-align: center;
-  text-overflow: ellipsis;
+.hero__button {
+  font-weight: bold;
+  background-color: hsl(176, 68%, 64%);
+  color: white;
+  padding: 0.625rem 2rem;
+  border-radius: 30px;
+  display: inline;
+  margin-top: 24px;
+}
 
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px; /* 114.286% */
-  letter-spacing: 0.28px;
-  text-transform: capitalize;
+.benefits {
+  margin-top: 120px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 88px;
+  max-width: 880px;
+  margin-inline: auto;
+}
+.benefit {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.benefit__image {
+  height: 68px;
+  width: 68px;
+  object-fit: contain;
+  margin-bottom: 28px;
+  margin-inline: auto;
+}
+.benefit__title {
+  margin-bottom: 8px;
+}
+.benefits__list {
+  list-style-type: none;
+  display: contents;
+}
+.main {
+  padding: 0 24px;
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 54px 80px 64px 64px;
+  }
+  .header__logo {
+    width: 180px;
+  }
+  .header__nav-list {
+    gap: 48px;
+  }
 }
