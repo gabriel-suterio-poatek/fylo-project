@@ -21,7 +21,6 @@
   color: var(--white-col);
   white-space: nowrap;
 }
-
 .hero {
   display: flex;
   align-items: center;
