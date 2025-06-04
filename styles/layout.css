@@ -27,6 +27,8 @@
   text-align: center;
   justify-content: center;
   margin-top: 24px;
+  max-width: 768px;
+  margin-inline: auto;
 }
 .hero__image {
   margin-bottom: 32px;
@@ -42,7 +44,6 @@
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 28px;
-  max-width: 600px;
 }
 .hero__button {
   font-weight: bold;
