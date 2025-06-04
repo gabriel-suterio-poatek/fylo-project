@@ -49,10 +49,12 @@
   font-weight: bold;
   background-color: var(--cyan-color);
   color: var(--white-col);
-  padding: 0.725rem 5rem;
+  padding: 0.725rem 24px;
   border-radius: 30px;
   margin-top: 16px;
   text-decoration: none;
+  max-width: 200px;
+  text-align: center;
   display: block;
   width: fit-content;
   margin-inline: auto;
