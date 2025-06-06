@@ -106,6 +106,12 @@
 .testimonial__quote {
   margin: 20px 24px;
 }
+.testimonial__quote-icon {
+  max-width: 25px;
+  max-height: 25px;
+  position: absolute;
+  margin: -15px 0 0 8px;
+}
 .testimonial__footer {
   display: grid;
   grid-template-columns: 32px 1fr;
@@ -139,5 +145,8 @@
   .testimonials {
     flex-direction: row;
     margin: 160px 140px 0 140px;
+  }
+  .testimonial__quote-icon {
+    margin: -15px 0 0 0px;
   }
 }
