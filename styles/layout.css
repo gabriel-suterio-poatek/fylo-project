@@ -21,6 +21,43 @@
   color: var(--white-col);
   white-space: nowrap;
 }
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 24px;
+  max-width: 768px;
+  margin-inline: auto;
+}
+.hero__image {
+  margin-bottom: 32px;
+  width: 100%;
+}
+.hero__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.hero__description {
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+.hero__button {
+  font-weight: bold;
+  background-color: var(--cyan-color);
+  color: var(--white-col);
+  padding: 0.725rem 24px;
+  border-radius: 30px;
+  margin-top: 16px;
+  text-decoration: none;
+  min-width: 200px;
+  text-align: center;
+  display: block;
+  width: fit-content;
+  margin-inline: auto;
+}
 .benefits {
   margin-top: 120px;
   justify-content: center;
