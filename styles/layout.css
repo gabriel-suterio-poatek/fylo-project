@@ -120,6 +120,18 @@
   align-items: center;
   gap: 6px;
 }
+
+.footer {
+  margin-top: 160px;
+  background-color: var(--dark-blue-3);
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer__logo {
 @media screen and (min-width: 1440px) {
   .header {
     padding: 54px 80px 64px 64px;
