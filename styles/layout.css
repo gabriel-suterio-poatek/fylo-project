@@ -98,7 +98,6 @@
   padding: 26px 26px 26px 26px;
   display: flex;
   flex-direction: column;
-  max-width: 1150px;
   background-color: var(--dark-blue-4);
   border-radius: 8px;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
