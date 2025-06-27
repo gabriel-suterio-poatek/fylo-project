@@ -92,9 +92,12 @@
   margin-top: 160px;
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin-inline: auto;
   gap: 24px;
 }
 .testimonial {
+  font-size: 0.75rem;
   padding: 26px 26px 26px 26px;
   display: flex;
   flex-direction: column;
@@ -113,18 +116,19 @@
 .testimonial__footer {
   display: grid;
   grid-template-columns: 32px 1fr;
-  gap: 0 10px;
+  column-gap: 10px;
 }
 .testimonial__author-image {
   border-radius: 50%;
   grid-row: span 2;
 }
 .testimonial__author-name {
-  font-size: 12px;
   font-style: normal;
+  font-weight: bold;
 }
+
 .testimonial__author-role {
-  font-size: 10px;
+  font-size: 0.625rem;
   font-style: normal;
 }
 .testimonials__list {
