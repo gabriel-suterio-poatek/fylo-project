@@ -91,6 +91,8 @@
 .testimonials {
   margin-top: 160px;
   display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
   gap: 24px;
 }
 .testimonial {
@@ -133,7 +135,7 @@
   display: contents;
 }
 .main {
-  padding: 0 48px;
+  padding: 0 24px;
 }
 .productivity {
   margin-top: 160px;
