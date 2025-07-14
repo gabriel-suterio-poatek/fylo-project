@@ -125,27 +125,24 @@
     </section>
   </main>
   <footer class="footer">
-    <article class="footer__logo-container">
-      <img src="./images/logo.svg" alt="Logo" />
-    </article>
-  
+      <img src="./images/logo.svg" alt="Logo" class="footer__logo-container"/>
     <div class="footer__content">
+    <address class="footer__address">
       <p class="footer__location">
         <img src="./images/icon-location.svg" alt="Location" class="footer__icon-location" />
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-      </p>
-  
-      <ul class="footer__contact-list">
-        <li class="footer__contact-item">
-          <img src="./images/icon-phone.svg" alt="Phone" />
-          <a href="tel:+1-543-123-4567" class="footer__contact-link">+1-543-123-4567</a>
-        </li>
-        <li class="footer__contact-item">
-          <img src="./images/icon-email.svg" alt="Email" />
-          <a href="mailto:example@fylo.com" class="footer__contact-link">example@fylo.com</a>
-        </li>
-      </ul>
-
+      </p>  
+      <div class="footer__contact-group">
+      <div class="footer__contact-item">
+        <img src="./images/icon-phone.svg" alt="Phone" />
+        <a href="tel:+1-543-123-4567" class="footer__contact-link">+1-543-123-4567</a>
+      </div>
+      <div class="footer__contact-item">
+        <img src="./images/icon-email.svg" alt="Email" />
+        <a href="mailto:example@fylo.com" class="footer__contact-link">example@fylo.com</a>
+      </div>
+    </div>
+    </address>
       <ul class="footer__nav-list">
         <li>About Us</li>
         <li>Jobs</li>
@@ -158,16 +155,18 @@
         <li>Terms</li>
         <li>Privacy</li>
       </ul>
-
       <ul class="footer__social-list">
         <li>
           <a href="https://facebook.com/"><i class="fab fa-facebook-f footer__social-icon"></i></a>
+          <label for="facebook-icon" class="sr-only">Facebook</label>
         </li>
         <li>
           <a href="https://twitter.com"><i class="fab fa-twitter footer__social-icon"></i></a>
+          <label for="twitter-icon" class="sr-only">Twitter</label>
         </li>
         <li>
           <a href="https://instagram.com"><i class="fab fa-instagram footer__social-icon"></i></a>
+          <label for="instagram-icon" class="sr-only">Instagram</label>
         </li>
       </ul>
     </div>
