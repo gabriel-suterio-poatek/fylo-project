@@ -200,7 +200,7 @@
 }
 .footer {
   margin-top: 20px;
-  padding: 240px 32px 80px;
+  padding: 240px 32px 40px;
   background-color: var(--dark-blue-3);
 }
 
@@ -338,7 +338,7 @@
     font-size: 2rem;
   }
   .footer {
-    padding-left: 120px;
+    padding: 240px 32px 80px 120px;
   }
   .footer__location {
     min-width: 350px;
