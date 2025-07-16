@@ -171,7 +171,6 @@
   gap: 6px;
 }
 .early-access {
-  margin-top: 120px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -182,6 +181,7 @@
   max-width: 860px;
   margin-inline: auto;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(50%);
 }
 .early-access__title {
   font-size: 1rem;
@@ -197,6 +197,92 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.footer {
+  margin-top: 20px;
+  padding: 240px 32px 40px;
+  background-color: var(--dark-blue-3);
+}
+
+.footer__logo-container {
+  display: block;
+}
+
+.footer__content {
+  max-width: 1280px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.footer__location {
+  display: flex;
+  gap: 16px;
+  color: var(--white-col);
+}
+.footer__address {
+  display: contents;
+  font-style: normal;
+}
+
+.footer__icon-location {
+  margin-top: 0.5rem;
+  max-width: 20px;
+  max-height: 20px;
+  object-fit: contain;
+}
+.footer__contact-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer__nav-link {
+  text-decoration: none;
+  color: var(--white-col);
+}
+
+.footer__contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer__contact-email {
+  display: flex;
+  align-items: center;
+}
+.footer__contact-link {
+  color: var(--white-col);
+  text-decoration: none;
+}
+
+.footer__nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__social-icon {
+  color: var(--white-col);
+  border: 1px solid var(--white-col);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
@@ -250,5 +336,19 @@
   }
   .early-access__title {
     font-size: 2rem;
+  }
+  .footer {
+    padding: 240px 32px 80px 120px;
+  }
+  .footer__location {
+    min-width: 350px;
+  }
+  .footer__content {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 64px;
+  }
+  .footer__social-list {
+    align-items: flex-start;
+    margin-top: 0;
   }
 }
